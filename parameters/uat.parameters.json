@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "ipicazo-dbsrv-dev"
+            "value": "ipicazo-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "ipicazo-db-dev"
+            "value": "ipicazo-db-uat"
         },
         "appServicePlanName": {
-            "value": "ipicazo-asp-dev"
+            "value": "ipicazo-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "ipicazo-be-dev"
+            "value": "ipicazo-be-uat"
         },
         "appServiceAppName": {
-            "value": "ipicazo-fe-dev"
+            "value": "ipicazo-fe-uat"
         },
         "location": {
             "value": "North Europe"
