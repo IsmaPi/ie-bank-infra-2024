@@ -28,7 +28,7 @@ jobs:
       run: az bicep build --file ./main.bicep
 
     - name: Upload Bicep build artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: bicep-buildç
         path: ./main.bicep # Adjust this path as necessary for your build output
@@ -46,7 +46,7 @@ jobs:
     - uses: actions/checkout@main
 
     - name: Download Bicep build artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
           name: bicep-build
 
@@ -75,7 +75,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Download Bicep build artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: bicep-build
 
